@@ -30,7 +30,6 @@
   /* Status (rounded&colored indicator) */
   .Contact .status .status-online,
   .Contact .status .status-offline {
-    display: inline-block;
     border-radius: 50%;
     width: 8px;
     height: 8px;
@@ -44,3 +43,8 @@
   .Contact .status .status-offline {
     background: #f4511e;
   }
+/* 
+  .second-status{
+    display: flex;
+    flex-direction: row;
+  } */

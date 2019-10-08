@@ -1,14 +1,29 @@
 import React from 'react';
 import './App.css';
-import Contact from './components/Contact';
+import Contact from'./components/Contact';
 
-function App() {
+
+
+
+const App = () => {
   return (
     <div className="App">
       <Contact
-      name = "Charlotte"
-      online = 'true'
-      avatar = 'https://avatars2.githubusercontent.com/u/53869538?s=400&u=4a97861fce7ea75e170ef6594b6a7c81d48efebc&v=4'
+      name = "MexicainLego"
+      online = {true}
+      avatar = {'https://randomuser.me/api/portraits/lego/6.jpg'}
+      />
+
+      <Contact
+      name = "CuisinierLego"
+      online = {false}
+      avatar = {'https://randomuser.me/api/portraits/lego/8.jpg'}
+      />
+
+      <Contact
+      name = "DriverLego"
+      online = {true}
+      avatar = {'https://randomuser.me/api/portraits/lego/0.jpg'}
       />
     </div>
   );
